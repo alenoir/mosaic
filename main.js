@@ -75,6 +75,11 @@ var drawHover = function(nextX, nextY, delay) {
       ctx.fillRect(nextX, nextY, size, size);
    }, delay);
 
+   setTimeout(function() {
+       ctx.fillStyle = 'hsl(255, 70%, 50%)';
+       ctx.fillRect(nextX, nextY, size, size);
+    }, 1000);
+
 
 }
 
